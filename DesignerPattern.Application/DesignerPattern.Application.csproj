@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesignerPattern.Domain\DesignerPattern.Domain.csproj" />
+    <ProjectReference Include="..\DesignerPattern.Infrastructure\DesignerPattern.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
