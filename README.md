@@ -1,4 +1,5 @@
 ✅ Design Patterns (Padrões de Projeto)
+
 1_ Singleton
 
 2_ Factory / Abstract Factory
