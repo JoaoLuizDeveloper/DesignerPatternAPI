@@ -13,3 +13,5 @@ Abstract Factory → Cria famílias de objetos relacionados
 5_ Decorator - Adiciona funcionalidades a um objeto sem mudar sua estrutura.
 
 6_ Builder - Constroi objetos passo a passo.
+
+## Video: https://youtu.be/WWQtlUUd_fM
