@@ -1,6 +1,7 @@
 
 namespace DesignerPattern.Domain.Entities
 {
+    // Representa uma solicitação de pagamento
     public class PaymentRequest
     {
         public string Method { get; set; }
