@@ -1,7 +1,7 @@
 ﻿namespace DesignerPattern.Infrastructure.Services
 {
     // Singleton Logger class for logging messages
-    // Serve pode ser usado para registrar logs no console em apenas uma instância, Dessa forma atende ao padrão Singleton.
+    // It can be used to log messages to the console using a single instance. This follows the Singleton pattern.
     public sealed class Logger
     {
         private static readonly Logger _instance = new Logger();
@@ -9,7 +9,7 @@
 
         private Logger() { }
 
-        // Criando Log no console
+        // Creating log output in the console
         public void Log(string message)
         {
             Console.WriteLine($"[LOG]: {message}");

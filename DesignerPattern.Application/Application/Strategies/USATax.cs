@@ -2,7 +2,7 @@
 {
     public class USATax : ITaxStrategy
     {
-        //Realiza o cálculo do imposto para os Estados Unidos
+        // Performs tax calculation for the United States
         public decimal Calculate(decimal amount) => amount * 0.10m;
     }
 }

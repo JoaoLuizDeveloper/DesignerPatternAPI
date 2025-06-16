@@ -3,18 +3,18 @@ using DesignerPattern.Infrastructure.Services;
 
 namespace DesignerPattern.Application.Application.Decorators
 {
-    // Decorator para verificação de fraude no processamento de pagamento
+    // Decorator for fraud check in payment processing
     public class FraudCheckDecorator : IPaymentProcessor
     {
         private readonly IPaymentProcessor _inner;
 
-        // Construtor que recebe o processador de pagamento interno
+        // Constructor that receives the internal payment processor
         public FraudCheckDecorator(IPaymentProcessor inner)
         {
             _inner = inner;
         }
 
-        // Verifica se existe fraude antes de processar o pagamento
+        // Checks for fraud before processing the payment
         public void Execute()
         {
             Logger.Instance.Log("Performing fraud check...");

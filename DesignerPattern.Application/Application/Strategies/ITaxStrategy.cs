@@ -2,7 +2,7 @@
 {
     public interface ITaxStrategy
     {
-        // Interface para o cálculo de imposto
+        // Interface for tax calculation
         decimal Calculate(decimal amount);
     }
 }

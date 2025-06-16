@@ -3,14 +3,14 @@ using DesignerPattern.Application.Services;
 
 namespace DesignerPattern.Application.Factories
 {
-    // Implementa o padrão Factory para criar instâncias de serviços de pagamento
-    // Podemos criar objetos sem especificar a classe exata do objeto que será criado.
+    // Implements the Factory pattern to create instances of payment services
+    // Allows us to create objects without specifying the exact class of the object being created
     public class PaymentFactory
     {
-        // Cria uma instância de IPaymentService com base no tipo fornecido
+        // Creates an instance of IPaymentService based on the provided type
         public static IPaymentService Create(string type)
         {
-            // Traz as instâncias de pagamento de acordo com o tipo
+            // Returns the payment instance according to the type
             return type switch
             {
                 "pix" => new PixPayment(),

@@ -2,26 +2,26 @@
 
 namespace DesignerPattern.Application.Builders
 {
-    // Implementando o padrão Builder para criar uma solicitação de pagamento
+    // Implementing the Builder pattern to create a payment request
     public class PaymentRequestBuilder
     {
         private readonly PaymentRequest _request = new();
 
-        // Define o metodo para pagamento pagamento
+        // Sets the payment method
         public PaymentRequestBuilder WithMethod(string method)
         {
             _request.Method = method;
             return this;
         }
 
-        // Define o valor do pagamento
+        // Sets the payment amount
         public PaymentRequestBuilder WithAmount(decimal amount)
         {
             _request.Amount = amount;
             return this;
         }
 
-        // Define a descrição do pagamento
+        // Sets the payment description
         public PaymentRequestBuilder WithDescription(string description)
         {
             _request.Description = description;

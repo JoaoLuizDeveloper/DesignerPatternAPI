@@ -6,13 +6,13 @@ namespace DesignerPattern.Application.Services
     {
         private readonly ITaxStrategy _strategy;
 
-        // Construtor que recebe uma estratégia de cálculo de imposto
+        // Constructor that receives a tax calculation strategy
         public TaxCalculator(ITaxStrategy strategy)
         {
             _strategy = strategy;
         }
 
-        // Método que calcula o imposto com a estratégia BR ou USA
+        // Method that calculates the tax using the BR or USA strategy
         public decimal CalculateTax(decimal amount) => _strategy.Calculate(amount);
     }
 }
