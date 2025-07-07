@@ -15,3 +15,5 @@ Abstract Factory → Cria famílias de objetos relacionados
 6_ Builder - Constroi objetos passo a passo.
 
 ## Video: https://youtu.be/WWQtlUUd_fM
+
+## Video ENGLISH: https://youtu.be/sV3hJ2mVb90
